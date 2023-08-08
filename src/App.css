@@ -1,0 +1,343 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url("../node_modules/@flaticon/flaticon-uicons/css/all/all.css");
+
+.header-text{
+font-family: 'Inter', sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+}
+.desktop-sidebar{
+  padding: 16px 20px 20px 30px;
+  width: 140px;
+  background-color: #FFFFFF;
+  height: 100vh;
+}
+.sidebar-list{
+  margin: 0% !important;
+  display: block;
+  list-style-type: none;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  padding-inline-start: 0 !important;
+}
+.sidebar-list li{
+  display: block !important;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 6px;
+  /* font-family: 'Inter', sans-serif; */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 1px;
+  box-sizing: border-box;
+
+}
+.sidebar-list > li  .icon{
+  width: 20px !important;
+  height: 20px !important;
+  margin: 10px !important;
+}
+
+.sidebar-list > li:hover{
+  color: #1C4980 !important;
+  border:1px solid #1C4980 !important;
+  background-color: #E5F1FC;
+}
+.active-list{
+  color: #1C4980 !important;
+  border:1px solid #1C4980 !important;
+  background-color: #E5F1FC;
+}
+
+.active-text{
+  color: #1C4980;
+}
+.assesment{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: #F6F8FA !important;
+}
+.assesment-body{
+  width: 100%;
+  margin-left: 15px;
+  background-color: white;
+}
+.tabs{
+height: 70px;
+padding-left: 20px;
+/* padding: 0px 20px 0px 20px; */
+border-radius: 12px 12px 0px 0px;
+/* border: 0px 0px 1px 0px; */
+gap: 24px;
+display: flex;
+align-items: center;
+border-bottom: 2px solid #EBECEE;
+}
+
+.nav{
+  border:none !important ;
+}
+.nav-link{
+  background-color: white !important;
+  color: black !important;
+  /* padding: 20px 20px 20px 20px !important; */
+  padding: 20px 20px 20px 20px !important;
+  /* border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-left:none !important ; */
+  font-size: 20px !important;
+  line-height: 28px !important;
+  font-weight: 600 !important;
+}
+.nav-item > .active{
+  border-color: #147EE8 !important;
+  color: #147EE8 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+ 
+}
+.nav-link:hover{
+  border-color: #147EE8 !important;
+}
+
+.nav-item{
+  position: relative !important;
+}
+.line{
+  border-right:1px solid black !important ;
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left: -5%; 
+}
+
+.my-assesment{
+  padding: 40px;
+}
+
+
+h1{
+font-size: 18px !important;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.c1{
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.c-border{
+  border: 2px solid #EBECEE;
+  height: 114px !important;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  padding: 16px 20px 16px 20px !important;
+  
+
+}
+.c-box-1{
+  border-radius: 15px 0 0 15px !important;
+  /* width:160px !important; */
+}
+.c-box-4{
+  border-radius: 0  15px 15px 0 !important;
+  /* width:160px !important; */
+  border-left: 0;
+}
+.c-box-2{
+  border-left:0 ;
+
+}
+.text-sm{
+  font-size: 15px;
+}
+.border-right{
+  border-right: 2px solid #F6F8FA;
+}
+.small-text{
+  color: green;
+}
+.c-iconBox{
+  height: 40px !important;
+  /* margin: 0 auto 0 auto !important; */
+  background-color: #EBE8FD;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+}
+.c-icon{
+  height: 20px;
+  color: #6548EE;
+  
+}
+.c-text{
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+
+}
+.card{
+  border-radius: 15px !important;
+  height: 230px !important;
+}
+
+.dotted-line{
+  border: 1.5px dotted #EBE8FD;
+  height: 1px;
+  width: 100%;
+  margin: 15px 0 15px 0;
+}
+.c2-text{
+font-size: 18px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.date{
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.job{
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.badge{
+  padding: 12px !important;
+  color: #1C4980 !important;
+  border:1px solid #1C4980 !important;
+}
+.dot{
+  height: 40px;
+  width: 40px;
+  background-color: purple;
+  border-radius: 50%;
+  display: inline ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+.my-assesment-cards .card{
+margin: 0 10px 0 0px ;
+}
+.my-assesment-overview{
+  display: block ;
+}
+.h10{
+  height: 100%;
+}
+.mobile-sidebar{
+  display: none !important;
+}
+.topbar{
+  font-size: 20px;
+  border-bottom: 2px solid #EBECEE;
+  padding-right: 10px;
+  text-align: end;
+}
+@media only screen and (max-width: 600px) {
+  .my-assesment-overview{
+    display: none !important;
+  }
+  .assesment-body{
+  
+    margin-left: 0%;
+    overflow: hidden !important;
+  }
+  .assesment{
+    overflow: hidden !important;
+  }
+  .mobile-sidebar{
+    display: block !important;
+  }
+
+  
+  .desktop-sidebar{
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 100vh;
+  }
+  .sidebar-list > li{
+    height: 40px;
+    padding: 10px;
+  }
+  .sidebar-list > li  .icon{
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0px 10px 0 0px !important;
+  }
+}
+
+.big-dot{
+ width: 80px;
+ height: 80px;
+ 
+color: #EBE8FD;
+ 
+}
+.new-assesment{
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+ p{
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.form-box{
+  margin: 10px 0 10px 0 !important;
+}
+label{
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+input{
+  font-weight: 500;
+}
